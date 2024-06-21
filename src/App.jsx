@@ -123,18 +123,12 @@ function App() {
               <th className="px-4 py-1">Instrucciones</th>
               <th className="px-4 py-1">Nota</th>
               <th className="px-4 py-1">Porcentaje</th>
-              <th className="px-4 py-1">Pantalla</th>
+              <th className="px-4 py-1 rounded-r-lg">Pantalla</th>
               {/* <th className="px-4 py-1 rounded-r-lg">Acciones</th> */}
             </tr>
           </thead>
           <tbody>
-            <tr className="text-neutral-200 gap-2" >
-              <td className="px-4 py-1">1</td>
-              <td className="px-4 py-1">Añadir fila</td>
-              <td className="px-4 py-1">Indefinido</td>
-              <td className="px-4 py-1">Indefinido</td>
-              <td className="px-4 py-1">Indefinido</td>
-            </tr>
+
             <tr className="text-neutral-200 gap-2" >
               <td className="px-4 py-1">1</td>
               <td className="px-4 py-1"></td>
