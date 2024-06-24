@@ -3,11 +3,24 @@
 @tailwind utilities;
 
 .a::-webkit-scrollbar {
-  background-color: #202020;
+  background-color: #152e57;
   width: 5px;
+  height: 5px;
 }
 
 .a::-webkit-scrollbar-thumb {
-  background-color: #1a1a1a;
+  background-color: #3b82f6;
   border-radius: 10px;
+}
+
+.bg1 {
+  background: rgb(9, 22, 42);
+  background: radial-gradient(circle, rgba(9, 22, 42, 1) 30%, rgb(0, 0, 0) 73%);
+}
+
+#root {
+  /* width: 100vh; */
+  /* height: 100vh; */
+  background-image: url("./assets/magicpattern-grid-pattern-1719196643148.png");
+  /* background-image: url("./assets/magicpattern-mesh-gradient-1719195750216.png");  */
 }
